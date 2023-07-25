@@ -1,0 +1,65 @@
+{
+    "PushTrashAvoidObs": {
+        "checkpoints": [
+            {
+                "steps": 3499990,
+                "file_path": "results\\ShortRoad_Etapa_1.1.0\\PushTrashAvoidObs\\PushTrashAvoidObs-3499990.onnx",
+                "reward": 26.974180221557617,
+                "creation_time": 1676129782.4282641,
+                "auxillary_file_paths": [
+                    "results\\ShortRoad_Etapa_1.1.0\\PushTrashAvoidObs\\PushTrashAvoidObs-3499990.pt"
+                ]
+            },
+            {
+                "steps": 3999960,
+                "file_path": "results\\ShortRoad_Etapa_1.1.0\\PushTrashAvoidObs\\PushTrashAvoidObs-3999960.onnx",
+                "reward": 26.22571110725403,
+                "creation_time": 1676130420.656727,
+                "auxillary_file_paths": [
+                    "results\\ShortRoad_Etapa_1.1.0\\PushTrashAvoidObs\\PushTrashAvoidObs-3999960.pt"
+                ]
+            },
+            {
+                "steps": 4499979,
+                "file_path": "results\\ShortRoad_Etapa_1.1.0\\PushTrashAvoidObs\\PushTrashAvoidObs-4499979.onnx",
+                "reward": 29.978787104288738,
+                "creation_time": 1676131061.8212223,
+                "auxillary_file_paths": [
+                    "results\\ShortRoad_Etapa_1.1.0\\PushTrashAvoidObs\\PushTrashAvoidObs-4499979.pt"
+                ]
+            },
+            {
+                "steps": 4999974,
+                "file_path": "results\\ShortRoad_Etapa_1.1.0\\PushTrashAvoidObs\\PushTrashAvoidObs-4999974.onnx",
+                "reward": 27.48044342464871,
+                "creation_time": 1676131701.2086506,
+                "auxillary_file_paths": [
+                    "results\\ShortRoad_Etapa_1.1.0\\PushTrashAvoidObs\\PushTrashAvoidObs-4999974.pt"
+                ]
+            },
+            {
+                "steps": 5000098,
+                "file_path": "results\\ShortRoad_Etapa_1.1.0\\PushTrashAvoidObs\\PushTrashAvoidObs-5000098.onnx",
+                "reward": 26.82239135942961,
+                "creation_time": 1676131701.2599983,
+                "auxillary_file_paths": [
+                    "results\\ShortRoad_Etapa_1.1.0\\PushTrashAvoidObs\\PushTrashAvoidObs-5000098.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5000098,
+            "file_path": "results\\ShortRoad_Etapa_1.1.0\\PushTrashAvoidObs.onnx",
+            "reward": 26.82239135942961,
+            "creation_time": 1676131701.2599983,
+            "auxillary_file_paths": [
+                "results\\ShortRoad_Etapa_1.1.0\\PushTrashAvoidObs\\PushTrashAvoidObs-5000098.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.8.2+cpu"
+    }
+}

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3940762847460578190
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3534887173613103586, guid: 9da518d63273f454fad1ba33b24d7738, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534887173613103586, guid: 9da518d63273f454fad1ba33b24d7738, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534887173613103586, guid: 9da518d63273f454fad1ba33b24d7738, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534887173613103586, guid: 9da518d63273f454fad1ba33b24d7738, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.2510844
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534887173613103586, guid: 9da518d63273f454fad1ba33b24d7738, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.6128416
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534887173613103586, guid: 9da518d63273f454fad1ba33b24d7738, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.9549837
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534887173613103586, guid: 9da518d63273f454fad1ba33b24d7738, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534887173613103586, guid: 9da518d63273f454fad1ba33b24d7738, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534887173613103586, guid: 9da518d63273f454fad1ba33b24d7738, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534887173613103586, guid: 9da518d63273f454fad1ba33b24d7738, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534887173613103586, guid: 9da518d63273f454fad1ba33b24d7738, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534887173613103586, guid: 9da518d63273f454fad1ba33b24d7738, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534887173613103586, guid: 9da518d63273f454fad1ba33b24d7738, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3538741507469740210, guid: 9da518d63273f454fad1ba33b24d7738, type: 3}
+      propertyPath: m_Name
+      value: Platform with walls Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9da518d63273f454fad1ba33b24d7738, type: 3}

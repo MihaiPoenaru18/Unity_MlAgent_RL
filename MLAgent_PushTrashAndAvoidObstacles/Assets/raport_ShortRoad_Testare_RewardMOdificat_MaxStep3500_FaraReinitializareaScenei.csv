@@ -1,0 +1,7 @@
+Episod,NumberCollisionAgentObstacles,NumberOfCollisionTrashObstacles,NumberOfStepsForToFinishEpisod,FinalReward,FinishEpisod,NumberOfCondition,ShortRoadCorrect
+1,0,0,1309,39.95159,True,4,True
+2,1,3,2049,-2.093408,False,3,False
+3,0,0,640,40.00045,True,4,True
+4,0,0,3493,-0.1997146,False,0,False
+4,0,0,3498,-0.2000004,False,0,False
+5,2,2,2745,37.8692,True,4,True

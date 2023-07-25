@@ -1,0 +1,39 @@
+behaviors:
+   PushTrashWithObstacole:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 512
+      buffer_size: 2048
+      learning_rate: 0.0001
+      beta: 0.01
+      epsilon: 0.3
+      lambd: 0.95
+      num_epoch: 5
+      learning_rate_schedule: linear
+    network_settings:
+      normalize: false
+      hidden_units: 512
+      num_layers: 3
+      vis_encode_type: simple
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 0.9
+      rnd:
+        gamma: 0.99
+        strength: 0.8
+        network_settings:
+              normalize: False
+              hidden_units: 256
+              num_layers: 3
+    init_path: D:\Facultate\Licenta\Repo ML_Rl\MLAngel-MoveToBall\results\AvoidObstacles_T1.4_NegRew\PushTrashWithObstacole\checkpoint.pt
+    keep_checkpoints: 15
+    max_steps: 1400000
+    time_horizon: 128
+    summary_freq: 200000
+    behavioral_cloning:
+      demo_path: Demos\PushTrashDemo.demo
+      steps: 1000000
+      strength: 0.75
+      samples_per_update: 0
+    
