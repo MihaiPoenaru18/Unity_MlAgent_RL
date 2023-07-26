@@ -5,6 +5,8 @@ usign the Unity Engine 3D envirment, and the system manages to achive a success 
 
 ![image](https://github.com/MihaiPoenaru18/Unity_MlAgent_RL/assets/45234856/6e800ffa-b76b-451c-a3ba-c1b96a2767c6)
 
+### The Elements of game envirment  
+![image](https://github.com/MihaiPoenaru18/Unity_MlAgent_RL/assets/45234856/9e64a406-42b8-4f7f-b248-891211520c2c)
 
 The process of training is divided into three stages:
 ### Stage 1 - <b>Push the trash<b>
@@ -49,12 +51,30 @@ The process of training is divided into three stages:
 
                                For stage 2 and stage 3 the scenario and UML digram are the same
 
-## The test scenario
+## The test scenarios
+![image](https://github.com/MihaiPoenaru18/Unity_MlAgent_RL/assets/45234856/800104db-e6a3-4d74-89b3-871e1098ac09)
 
-![image](https://github.com/MihaiPoenaru18/Unity_MlAgent_RL/assets/45234856/184335f2-18ca-4c89-97dc-b2bc444e8b36)
+
 
 
 ## The results of testing neural network
+### Test Scenario – rescaled from training scenarios
+#### Features of the scenario:
+* The duration of an episode is 5500 steps
+* Reward for delivery in any condition of the waste: 10
+* Number of steps the agent is rewarded for: 4500 steps
+  
+![image](https://github.com/MihaiPoenaru18/Unity_MlAgent_RL/assets/45234856/98420e07-745a-4fa0-bf62-8cd28c5217e9) 
+
+#### All the results
+* Number of episodes: 950
+* Average rewards per episode: 49.5743
+* Success rate: 54%
+* Average collisions between agent and obstacles: 0
+* Average collisions between debris and obstacles: 0
+* Average number of steps: 816 steps
+
+
 
 ###### The project was inspired from this [repository](https://github.com/Unity-Technologies/ml-agents)
 
