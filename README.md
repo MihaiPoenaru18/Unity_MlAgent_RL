@@ -20,17 +20,17 @@ The process of training is divided into three stages:
                                          The scenario and UML diagram
 ![image](https://github.com/MihaiPoenaru18/Unity_MlAgent_RL/assets/45234856/b10506aa-733e-4e20-b2b3-c80b8f9f182b)
 
-        The two questions in stage 1: A Cumulative Rewards Chart and B-Policy Loss, With first training(orange), second training(dark blue)
+    The two questions in stage 1: A Cumulative Rewards Chart and B-Policy Loss, With first training(orange), second training(dark blue)
 ### Stage 2 - <b>Push the trash and avoid obstacles at the same time<b>
 * This stage is formed of 2 trainings, one with 7 million steps and other where the neuronal network is reused form the first training. 
 * The new attributes for this stage are the type of collisions agent-obstacles, respectively garbage-obstacles
 * The agent can make<b> maxim 4 collisions with obstacles for he receives the reward value of 5</b>, if it makes more than 4 collisions the agent doesn’t receive the reward value, but he will receive a punishment value per collisions.
 * If the agent pushes the garbage into obstacles, he will be punishment with value of -0.1
 * If the garbage has less than <b>4 collisions with obstacles</b>, the agent will receive a reward value of 5.
-* 
+  
   ![image](https://github.com/MihaiPoenaru18/Unity_MlAgent_RL/assets/45234856/7140197f-ac99-444e-b522-6e1866e06e24)
   
-        The two questions in stage 2: A Cumulative Rewards Chart and B-Policy Loss, With first training(red), second training(light blue)
+      The two questions in stage 2: A Cumulative Rewards Chart and B-Policy Loss, With first training(red), second training(light blue)
   
 ### Stage 3 - <b>Agent improvement<b>
 * The third stage is like the same second stage, but with the number of collisions lower with two for collision agent-obstacles respectively three for trash-obstacles, to make the agent mission more complex.
